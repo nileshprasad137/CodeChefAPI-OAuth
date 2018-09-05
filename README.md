@@ -7,6 +7,7 @@ Make sure you have Python installed and install the requirements
 $ pip install -r requirements.txt
 ```
 
+Set your ```CLIENT_ID``` and ```CLIENT_SECRET``` in ```config.py```.
 Run the Python program ```oauth.py``` to get your access token.
 
 Feel free to improve this.  
