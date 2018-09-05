@@ -19,7 +19,6 @@ def homepage():
 def make_authorization_url():
 	# Generate a random string for the state parameter
 	# Save it for use later to prevent xsrf attacks
-	from uuid import uuid4
 	state = str(uuid4())
 	save_created_state(state)
 	params = {"client_id": CLIENT_ID,
